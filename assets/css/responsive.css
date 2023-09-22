@@ -1,0 +1,860 @@
+@media (min-width:768px){
+
+    
+    .united-states:hover .pop-up-modal{
+      display: block;
+       visibility: visible;
+      opacity: 1;
+      z-index: 999999;
+  } 
+  .europe:hover .pop-up-modal-1{
+    display: block;
+     visibility: visible;
+    opacity: 1;
+    z-index: 999999;
+} 
+.latin-america:hover .pop-up-modal-2{
+    display: block;
+     visibility: visible;
+    opacity: 1;
+    z-index: 999999;
+} 
+.asia:hover .pop-up-modal-3{
+    display: block;
+     visibility: visible;
+    opacity: 1;
+    z-index: 999999;
+} 
+.africa:hover .pop-up-modal-4{
+    display: block;
+     visibility: visible;
+    opacity: 1;
+    z-index: 999999;
+} 
+
+
+}
+
+
+@media (max-width:1440px) {
+    .container {
+        max-width: 90% !important;
+    }
+    .page-section-media p {
+        margin-bottom: 1.7rem;
+    }
+    .page-section-bg-img h2 {
+        font-size: 2.2em;
+    }
+    .col-md-12 {
+        flex: 0 0 auto;
+        width: 100%;
+        display: contents;
+    }
+    .pop-up-modal-3 {
+        display: none;
+        position: fixed !important;
+        top: 50%;
+        left: -60%;
+        z-index: 100000000000000000000;
+        transform: translate(-77%,-61%);
+    }
+    .pop-up-modal-4 {
+       
+        bottom: -50%;
+        left: 40%;
+        transform: translate(-50%,-87%);
+        
+    }
+    .pop-up-modal {
+        top: 56%;
+    }
+    .pop-up-modal-1 {
+        top: 35%;
+    }
+    .pop-up-modal-3 {
+        left: -69% !important;
+    }
+    .pop-up-modal-2 {
+        top: 28%;
+    }
+}
+@media (max-width:1167px) {
+    .page-section-media p {
+        margin-bottom: 1.2500em;
+    }
+    .page-section-bg-img h2 {
+        font-size: 2.571429em;
+    }
+
+    .books-2 .img{
+        width: 18em;
+    }
+    .books-2 .planet .img {
+        width: 20.5em;
+      
+    }
+    .pop-up-modal-3{
+        display: none;
+        position: fixed !important;
+        top: 25%;
+        right: 45%;
+        transform: translate(-52%,-50%);
+      }
+      .pop-up-modal {
+        top: 70%;
+    }
+  
+   
+    .pop-up-modal-1 {
+        top: 70%;
+        position: absolute !important;
+    }
+    .pop-up-modal-2 {
+        top: 40%;
+        transform: translate(-42%, 18%);
+    }
+    .pop-up-modal-3 {
+        left: -52% !important;
+        transform: translate(-57%, -61%) !important;
+    }
+    .pop-up-modal-4 {
+       
+        bottom: -50%;
+        left: 40%;
+        transform: translate(-50%,-87%);
+        
+    }
+}
+
+
+
+
+
+@media (max-width:991px) {
+    .row .Hero {
+        display: flex;
+        flex-direction: row-reverse !important;
+    }
+    .nav-icon-bg {
+        display: none;
+    }
+    header{
+        position: relative;
+    }
+    .pop-up-modal-3 .pop-modal {
+        width: 16em;}
+
+    
+    
+    
+    .navbar-nav .nav-link.active,
+    .navbar-nav .show>.nav-link {
+        
+        height: auto;
+        margin: 12px 0;
+    }
+    
+    button.navbar-toggler {
+    margin-left: 0 !important;
+margin-bottom: 25px;    
+    }
+    .page-section-media a{
+        font-size: 1.250em;
+    }
+
+    .page-section-bg-img h2 {
+        font-size: 2.271429em;
+    }
+    .continental-images{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .continental-images .continental-imag{
+        display: flex !important;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    .continental-images .continental-imag .button-btn{
+        margin-bottom: 30px     ;
+    }
+    .title_container.center-style .page-section-content {
+        margin-top: 0;
+    }
+    .news-section {
+        padding: 5em 0;
+    }
+    .books-2 .img{
+        width: 17em;
+    }
+    .books-2 .planet .img {
+        width: 20.5em;
+      
+    }
+    .books-2 .planet .img {
+        width: 17.5em;
+        transform: translateY(-22px);
+    }
+    .africa{
+        transform: translate(40px, 65px);
+    }
+    .pop-up-modal-3{
+        display: none;
+        position: fixed !important;
+        top: 50%;
+        right: 25%;
+        transform: translate(-53%,-50%);
+      }
+      .book2 {
+        justify-content: space-evenly;
+        display: flex;
+        padding-bottom: 26px;
+    }
+    .asia {
+        transform: translatex(56px);
+    }
+    .pop-up-modal {
+        top: 70%;
+    }
+  
+   
+    .pop-up-modal-1 {
+        top: 70%;
+        position: absolute !important;
+    }
+    .pop-up-modal-2 {
+        top: 40%;
+        transform: translate(-42%, 18%);
+    }
+    .pop-up-modal-3 {
+        left: -52% !important;
+        transform: translate(-57%, -61%) !important;
+    }
+    .pop-up-modal-4 {
+       
+        bottom: -50%;
+        left: 40%;
+        transform: translate(-50%,-87%);
+        
+    }
+
+
+
+}
+@media (max-width:767px) {
+    .pop-up-modal.show{
+        display: block;
+        visibility: visible;
+        opacity: 1;
+        z-index: 999999;
+    }
+    .pop-up-modal-1.show{
+        display: block;
+        visibility: visible;
+        opacity: 1;
+        z-index: 999999;
+    }
+    .pop-up-modal-2.show{
+        display: block;
+        visibility: visible;
+        opacity: 1;
+        z-index: 999999;
+    }
+    .pop-up-modal-3.show{
+        display: block;
+        visibility: visible;
+        opacity: 1;
+        z-index: 999999;
+    }
+    .pop-up-modal-4.show{
+        display: block;
+        visibility: visible;
+        opacity: 1;
+        z-index: 999999;
+    }
+    .pop-up-button {
+        border: none;
+        background-color: white;
+        text-align: end;
+        font-size: 16px;
+        font-weight: 400;
+        margin-right: 11px;
+        margin-top: -7px;
+        margin-bottom: 7px;
+        display: block;
+    }
+    .page-section-bg-img h2 {
+        font-size: 25px;
+    }
+    .nav-logo img{
+        width: auto; 
+    max-height: 80px;
+    }
+    header {
+        position:relative !important;
+       
+    }
+    .nav-icon-bg {
+        
+        display: none;
+    }
+    .continent-h2{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .pdf-img img {
+       
+        padding: 0;
+    }
+    .page-section-content.continent-jigsaw {
+        padding: 0;
+    }
+    .Global-Insights {
+        display: flex;
+        flex-direction: column;
+    }    
+    .title_container.center-style .page-section-content {
+        padding: 30px 0;
+    }
+    .text-center {
+        margin-top: 20px;
+    }
+    .news-section {
+        padding: 3.12em 0;
+    }   
+    .books-2{
+        flex-direction: column;
+        align-items: center;
+    }
+    .books-2 .img {
+        width: 20em;
+    }
+    .book2 .hover-img {
+        width: 24em !important;
+    }
+    .text-center {
+        margin-top: 0px;
+        font-size: 1.2rem;
+    }
+ 
+    .pop-up-modal-3{
+        display: none;
+        position: fixed !important;
+       top: 50%;
+    left: 19%;
+    transform: translate(-5%,-75%);
+      }
+      .pop-up-modal {
+        top: 70%;
+    }
+  
+   
+   
+    .pop-up-modal .pop-modal {
+        width: 15em;
+    
+    }
+    .pop-up-modal-1 .pop-modal {
+        width: 15em;
+    
+    }
+    .pop-up-modal-2 .pop-modal {
+        width: 15em;
+    
+    }
+    .pop-up-modal-3 .pop-modal {
+        width: 15em;
+    
+    }
+    .pop-up-modal-4 .pop-modal {
+        width: 15em;
+    
+    }
+    .books-2 .planet .img {
+        width: 23em;
+        margin: 20px 0px;
+    }
+    .pop-up-modal-1 {
+        top: 94%;
+    }
+    .pop-up-modal-2 {
+        top: 100%;
+    }
+    .pop-up-modal-3 {
+        left: -13% !important;
+        transform: translate(8%, -83%) !important;
+    }
+    .pop-up-modal-4 {
+        transform: translate(-50%,-55%);
+    }
+}
+@media (max-width:575px){
+    .book2 .united-states .hover-img {
+        width: 17em !important;
+    }
+    .asia {
+        transform: translatex(4px);
+    }
+    .africa {
+        transform: translate(0px, -45px);
+    }
+
+    .books-2 .img {
+        width: 15em !important;
+    }
+    .pop-up-modal {
+        top: 56%;
+    }
+  
+   
+   
+    .pop-up-modal .pop-modal {
+        width: 14em;
+    
+    }
+    .pop-up-modal-1 .pop-modal {
+        width: 14em;
+    
+    }
+    .pop-up-modal-2 .pop-modal {
+        width: 14em;
+    
+    }
+    .pop-up-modal-3 .pop-modal {
+        width: 14em;
+    
+    }
+    .pop-up-modal-4 .pop-modal {
+        width: 14em;
+    
+    }
+    .books-2 .planet .img {
+        width: 23em;
+        margin: 20px 0px;
+    }
+    .pop-up-modal-1 {
+        top: 94%;
+    }
+    .pop-up-modal-2 {
+        transform: translate(-42%, -2%);
+    }
+
+    .pop-up-modal-4 {
+        transform: translate(-50%,-55%);
+    }
+    .pop-up-modal-3 {
+        position: absolute !important;
+        top: 50% !important;
+        left: -26% !important;
+        transform: translate(32%, -91%) !important;
+    }
+
+
+
+
+
+
+
+
+    .nav-icon-bg {
+        
+        display: none;
+    }
+    .title_container.center-style .page-section-content {
+        margin-top: 0px;
+    }
+    .txt-para {
+        padding: 20px 0px;
+    }
+    h2.des-h2 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .post-content p {
+            font-size: 13.3px;
+    }
+    
+.page-section-content.section .main-page h2 {
+    font-size: 25px;
+}
+
+.page-section-content.section {
+    padding: 2.25em 0;
+}
+.page-section-content.continent-jigsaw {
+    margin: 4em 0;
+}
+.youtube{
+    width: 518px;
+    height: 280px;
+    margin-bottom: 4em;
+}
+.pdf-img img {
+    margin-top: 2em;
+}
+.books-2 .planet .img{
+    transform: none;
+}
+  
+
+.rotating-slider p {
+    margin-left: -7px;
+}
+
+.books-2{
+    flex-direction: column;
+}
+
+.text-center {
+    margin-top: 0px;
+    font-size: 1.2rem;
+}
+.books-2 .planet .img {
+    width: 100%;
+    margin: 20px 0px;
+    
+}
+.pop-up-modal-3 {
+    position: relative !important;
+    top: 50% !important;
+    left: 3% !important;
+    transform: translate(6%, -100%) !important;
+}
+
+    
+}
+@media (max-width:467px){
+    .book2 .united-states .hover-img {
+        width: 17.5em !important;
+        transform: translateX(-11px);
+    }
+    .asia {
+        transform: translatex(4px);
+        margin-top: 25px;
+    }
+    .africa {
+        transform: translate(0px, -45px);
+        margin-top: 25px;
+
+    }
+
+    .books-2 .img {
+        width: 15em !important;
+    }
+    .pop-up-modal {
+        top: 56%;
+    }
+  
+   
+   
+    .pop-up-modal .pop-modal {
+        width: 14em;
+    
+    }
+    .pop-up-modal-1 .pop-modal {
+        width: 14em;
+    
+    }
+    .pop-up-modal-2 .pop-modal {
+        width: 14em;
+    
+    }
+    .pop-up-modal-3 .pop-modal {
+        width: 14em;
+    
+    }
+    .pop-up-modal-4 .pop-modal {
+        width: 14em;
+    
+    }
+    .books-2 .planet .img {
+        width: 23em;
+        margin: 20px 0px;
+    }
+    .pop-up-modal-1 {
+        top: 94%;
+    }
+    .pop-up-modal-2 {
+        transform: translate(-42%, -2%);
+    }
+
+    .pop-up-modal-4 {
+        transform: translate(-50%,-55%);
+    }
+    .pop-up-modal-3 {
+        position: absolute !important;
+        top: 50% !important;
+        left: -26% !important;
+        transform: translate(14%, -100%) !important;
+    }
+    .continent-h2.home {
+        font-size: 1.5em;
+       
+    }
+    .pdf-img img {
+        padding: 35px 0;
+    }
+    .title_container.center-style h1 {
+        font-size: 25px;
+        line-height: 0;
+       
+    }
+    .youtube {
+        max-width: 400px;
+        height: 227px;
+    }
+    iframe{
+        height: 100%;
+        width: 100%;
+    }
+    .book3 {
+        margin-bottom: 30px!important;
+    }
+  
+
+.books-2 img {
+    padding: 0.4em 0 0.4em 0;
+}
+.p-book img {
+    padding-top: 0em !important;
+}
+.rotating-slider p {
+    margin-left: -10px;
+}
+.books-2 .img {
+    width: 3.5em;
+}
+.planet img {
+    width: 5em !important;
+    margin-left: -15px;
+    margin-top: -30px;
+}
+.book3 {
+    margin-bottom: 0px!important;
+}
+.modal.fade .modal-dialog {
+    display: flex;
+    margin: 0 auto;
+}
+.books-2{
+    flex-direction: column;
+}
+.books-2 .img {
+    width: 100%;
+}
+.text-center {
+    margin-top: 0px;
+    font-size: 1.2rem;
+}
+.books-2 .planet .img {
+    width: 100%;
+    margin: 20px 0px;
+    display: none;
+}
+.width-img {
+    display: block;
+    width: 18em;
+}
+
+
+    
+    
+}
+@media (max-width:350px){
+    .book2 .united-states .hover-img {
+        width: 17.5em !important;
+        transform: translateX(-11px);
+    }
+    .asia {
+        transform: translatex(4px);
+        margin-top: 25px;
+    }
+    .africa {
+        transform: translate(0px, -45px);
+        margin-top: 25px;
+
+    }
+
+    .books-2 .img {
+        width: 15em !important;
+    }
+    .pop-up-modal {
+        top: 56%;
+    }
+  
+   
+   
+    .pop-up-modal .pop-modal {
+        width: 14em;
+    
+    }
+    .pop-up-modal-1 .pop-modal {
+        width: 14em;
+    
+    }
+    .pop-up-modal-2 .pop-modal {
+        width: 14em;
+    
+    }
+    .pop-up-modal-3 .pop-modal {
+        width: 14em;
+    
+    }
+    .pop-up-modal-4 .pop-modal {
+        width: 14em;
+    
+    }
+    .books-2 .planet .img {
+        width: 23em;
+        margin: 20px 0px;
+    }
+    .pop-up-modal-1 {
+        top: 94%;
+    }
+    .pop-up-modal-2 {
+        transform: translate(-50%, -2%);
+    }
+
+    .pop-up-modal-4 {
+        transform: translate(-40%,-50%);
+    }
+    .pop-up-modal-3 {
+        position: absolute !important;
+        top: 50% !important;
+        left: -26% !important;
+        transform: translate(19%, -88%) !important;
+    }
+    .width-img {
+        display: block;
+        width: 16em;
+    }
+    .pdf-img img {
+        padding: 35px 0;
+        max-width: 106%;
+
+    }
+    .title_container.center-style h1 {
+        font-size: 23px;
+        font-weight: 600;
+        margin-bottom: 20px;
+        display: contents;
+        line-height: 10px;
+    }
+    .title_container.center-style .page-section-content {
+        padding: 25px 0;}
+
+        .post-meta-box {
+            font-size: 13px;
+           
+        }
+        .books-2 .img {
+            width: 2.5em;
+        }
+        .book3 {
+            justify-content: space-between;
+            display: flex;
+            margin-bottom: 30px!important;}
+            .modal-dialog {
+                max-width: 95% !important;
+                /* max-height: 100vh; */
+            }
+            .asia{
+                margin-right: -25px;
+            }
+            .planet img {
+                width: 5em !important;
+                margin-left: -23px;
+                margin-top: -12px;
+            }
+            .africa {
+                margin-left: 40px;
+                margin-top: -20px;
+            }
+            .rotating-slider p a {
+                color: #363636;
+                font-size: 10px !important;
+            }
+            .rotating-slider p a {
+                color: #363636;
+                font-size: 8px !important;
+                font-weight: 900;
+            }
+            .planet img {
+                width: 5em !important;
+                margin-left: -23px;
+                margin-top: -30px;
+            }
+            .books-2{
+                flex-direction: column;
+            }
+            .books-2 .img {
+                width: 100%;
+            }
+            .text-center {
+                margin-top: 0px;
+                font-size: 1.2rem;
+            }
+            .books-2 .planet .img {
+                width: 100%;
+                margin: 20px 0px;
+                display: none;
+            }
+            .asia {
+                transform: translatex(0px);
+            }
+            .width-img{
+                display: block;
+            }
+            .africa {
+                margin-left: 0px;
+                margin-top: 35px;
+            }
+            .pop-up-button {
+                border: none;
+                background-color: white;
+                text-align: end;
+                font-size: 16px;
+                font-weight: 500;
+                margin-right: 11px;
+                margin-top: -7px;
+                margin-bottom: -9px;
+                display: block;
+            }
+            .pop-up-modal .pop-modal {
+                width: 13em;
+            }
+            .pop-up-modal-1 .pop-modal {
+                width: 13em;
+            }
+            .pop-up-modal-2 .pop-modal {
+                width: 13em;
+            }
+            .pop-up-modal-3 .pop-modal {
+                width: 13em;
+            }
+            .pop-up-modal-4 .pop-modal {
+                width: 13em;
+            }
+
+   
+}
+@media (max-width:320px){
+    .page-section-media a {
+        font-size: 1.230em;
+    }
+    .post-meta-box {
+        font-size: 11px;
+    }
+    
+    
+    
+    
+  
+}
+
+
+
+
